@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subscription</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        background-image: url(pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 500;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100vh;
+    }
+
+    .container {
+        background-color: white;
+        width: 350px;
+        border: none;
+        border-radius: 10px;
+        overflow: hidden;
+        height: 510px;
+
+    }
+
+    .image img {
+        width: 350px;
+    }
+
+    .bottom {
+        background-color: white;
+        padding: 10px 30px 0px 30px;
+        height: 100vh;
+    }
+
+    .order p {
+        font-weight: 1000;
+        font-size: 20px;
+        color: #263657;
+    }
+
+    .pera {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .text p {
+        color: #84869b;
+    }
+
+
+
+    .price {
+        display: flex;
+        align-items: center;
+        background-color: #f8f9fe;
+        padding: 15px;
+        padding-bottom: 12px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .plan {
+        margin-left: 20px;
+        color: #263657;
+
+    }
+
+    .plan p {
+        width: 94px;
+        color: #84869b;
+    }
+
+    .button1 a {
+        text-decoration: none;
+        color: #2c2b35;
+        margin: 40PX;
+    }
+
+    .plan p span {
+        color: #263657;
+        font-weight: bold;
+    }
+
+    .button2 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 10px;
+        width: 290px;
+        height: 35px;
+        background-color: #766cf1;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .button2 a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .button2:hover {
+        background-color: rgb(21, 180, 146);
+    }
+
+    .cancel {
+        width: 100vw;
+    }
+
+    .cancel a {
+        text-decoration: none;
+        color: #263657;
+        margin: 20px auto 0 100px;
+        font-size: 13px;
+        font-weight: bold;
+
+    }
+</style>
+
+
+<body>
+
+    <div class="container">
+
+        <div class="image">
+            <img src="images/illustration-hero.svg">
+        </div>
+        <div class="bottom">
+            <div class="pera">
+                <div class="order">
+                    <p>
+                        Order Summary
+                    </p>
+                </div>
+                <div class="text">
+                    <p>
+                        You can now Listen to millions of songs, audiobooks, and podcasts on any device
+                        anywhere you like!
+                    </p>
+                </div>
+
+            </div>
+            <div class="price">
+                <div class="icon">
+                    <img src="images/icon-music.svg">
+                </div>
+                <div class="plan">
+                    <p> <span>Annual Plan</span><br>$59.99/year</p>
+                </div>
+                <div class="button1"> <a href="#">Change</a>
+                </div>
+            </div>
+            <div class="anime"><button class="button2"><a href="#">Proceed To Payment</a></button></div>
+            <div class="cancel"><a href="#">Cancel Order</a>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
